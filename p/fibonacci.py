@@ -1,17 +1,11 @@
-"""Simple Fibonacci series generator and CLI.
 
-Usage:
-    python p/fibonacci.py 10
-
-If no argument is given, prints first 10 Fibonacci numbers.
-"""
 
 from typing import List
 import sys
 
 
 def fibonacci(n: int) -> List[int]:
-    """Return the first n Fibonacci numbers (n >= 0)."""
+    
     if n <= 0:
         return []
     seq = [0]
