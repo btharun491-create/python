@@ -1,11 +1,8 @@
-
-
 from typing import List
 import sys
 
 
 def fibonacci(n: int) -> List[int]:
-    
     if n <= 0:
         return []
     seq = [0]
